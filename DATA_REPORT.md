@@ -7,8 +7,6 @@ In this README.md (or a separate DATA_REPORT.md if you prefer), briefly describe
 4 - Assumptions you had to make.
 ------------------------------------------------------------------------------------------------------------------------- 
 
-
-
 1- The main entities: if supposed to create related tables
 
 users:
@@ -32,9 +30,3 @@ event_type   string     (all are telemetry)
 event_value  string     (points to payload)
 event_ts     datetime   (date and time of connect)
 payload      string     (a JSON document which includes metadata or connection status)
-
-
-
-
-
-
