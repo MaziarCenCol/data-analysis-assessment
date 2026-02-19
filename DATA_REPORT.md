@@ -10,8 +10,8 @@ In this README.md (or a separate DATA_REPORT.md if you prefer), briefly describe
 1- The main entities: if supposed to create related tables
 
 users:		
-user_id    	string     (PK)    	(found one duplicate value)
-signup_date 	 datetime          	    (sign up date)
+user_id  -  	string     (PK)  -  	(found one duplicate value)
+signup_date 	- datetime      -    	    (sign up date)
 region   	  string or enum 	 (the region signed up from)
 platform   	string or enum 	 (the platform signed up from)
 
